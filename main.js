@@ -64,6 +64,7 @@ var fineItems = items.filter(function(item) {
 //sixth
 var sellerItems = items.filter(function(item) {
   return (item.quantity.length)
-})
-
+});
+  sellerItems.forEach(function(item) {
   console.log(sellerItems  + ' were made by their sellers')
+});
